@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body{
+	background-color: black;
+		background-image: url(../img/back2.gif);
+    background-size: cover;
+
+}
+
+section{
+    background-size: cover;
+    height: 100%;
+
+}
+.heading
+{
+	font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #fee;
+    margin-top: 0.5em;
+    padding: 0.3em;
+    text-align: center;
+
+}
+
+hr{
+	margin-top: 0px;
+	border:1.5px solid #00fffd;
+	 	box-shadow: 0 0 15px #00fffd;
+
+}
+.question{
+ color: #fefe;
+ font-size: 1em;
+ padding: 1em;
+
+}
+p{
+	padding: 1.5em;
+	margin:0.2em; 
+
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700i);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+*{
+	box-sizing: border-box;
+}
+ .start p{
+ 	background: #111;
+ 	background: linear-gradient(#004746,#111111);
+ 	border:6px solid #00a4a2;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	transition: 1s all;
+ 	font-size: 1em;
+ 	height:100%;
+    
+ }
+
+ .start p:hover{
+ 	border: 6px solid #00fffd;
+ 	box-shadow: 0 0 15px #00fffd;
+ 	transition: 1s all;
+ }
+  .start button{
+	
+	background: #222;
+		background: linear-gradient(#393939,#292929);
+	box-sizing: content-box;
+	border: 1px solid #00fffd;
+
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #000;
+	display: block;
+	font-family: 'Cabin',helvetica,arial,sans-serif;
+	color: #00fff0;
+	width:40%;
+	height: 2em;
+	position:relative;
+	margin-left:30%;
+   
+
+}
+.start button:hover,
+.start button:focus{   
+	background:#0c6125;
+ 	background: #fefe;
+	color: #004746;
+	outline: none;
+	transition: 1s all;
+}
+.start button:active{
+	background: #292929;
+	background: linear-gradient(#393939,#292929);
+	box-shadow:0 1px 0 #000,
+	inset 1px 0 1px #222;
+	top:1px;
+
+} 
+  
+}
+
+

@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Arkane2K18
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style/game.css">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
+     </head>
+     <body>
+    <div class="row">
+        <div class= "col-lg-6">pppp
+        </div>
+        
+
+
+        <div class="col-lg-6">
+            <div class="contain">
+
+   <div class="left-content">
+      <p>Content 01</p>
+      <p>Content 02</p>
+      <p>Content 03</p>
+      <p>Content 04</p>
+      <p>Content 05</p>
+      <p>Content 06</p>
+      <p>Content 07</p>
+     </div>
+   <div class="right-content">
+      <p>Content 11</p>
+      <p>Content 12</p>
+      <p>Content 03</p>
+      <p>Content 04</p>
+      <p>Content 05</p>
+      <p>Content 06</p>
+      <p>Content 07</p>
+      </div>
+</div>
+
+
+        </div>
+
+    </div>
+<script type="text/javascript">$(window).scroll(function(){              
+    $('.container p').each(function(){
+        var scrollTop     = $(window).scrollTop(),
+            elementOffset = $(this).offset().top,
+            distance      = (elementOffset - scrollTop),
+                windowHeight  = $(window).height(),
+                breakPoint    = windowHeight*0.9;
+
+            if(distance > breakPoint) {
+                $(this).addClass("more-padding");   
+            }  if(distance < breakPoint) {
+                $(this).removeClass("more-padding");    
+            }
+    });
+});
+
+
+</script>
+       </body>
+       </html>
+       
